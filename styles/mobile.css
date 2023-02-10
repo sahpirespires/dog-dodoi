@@ -17,3 +17,8 @@
         display: block;
     }
 }
+.cadastro a{
+    color: var(--cor-branca);
+    text-decoration: none;
+    text-align: center;
+}

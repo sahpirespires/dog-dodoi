@@ -157,7 +157,8 @@ main #beneficios-servicos{
     width: 300px;
  }
 
- main #form #form-formulario form button{
+ main #form #form-formulario form button, 
+ .formulario .formulario-form form button{
     padding: 8px;
     border: none;
     background-color: var(--cor-principal);
@@ -165,6 +166,14 @@ main #beneficios-servicos{
     border-radius: 10px;
     width: 380px;
     cursor: pointer;
+    display: block;
+ }
+ .cadastro{
+    margin-top: 10px;
+ }
+ .cadastro a{
+    color: var(--cor-branca);
+    text-decoration: none;
  }
 
  main #form #form-formulario{
@@ -173,8 +182,11 @@ main #beneficios-servicos{
     background-size:contain ;
  }
 
-        
-
  main #form.form-sem-cachorro #form-formulario{
     background-image: none;
  }
+ .formulario .formulario-form form a{
+    color: var(--cor-preta);
+    text-decoration: none;
+    text-align: center;
+}
